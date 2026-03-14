@@ -1,8 +1,8 @@
 // Number of rows to print in the pattern
-const rows = 6;
+const TOTAL_ROWS = 6;
 
 // Outer loop controls the number of rows
-for (let i = 1; i <= rows; i++) {
+for (let i = 1; i <= TOTAL_ROWS; i++) {
   let line = ""; // Variable to store the pattern for the current row
 
   // Inner loop controls how many elements are printed in each row
